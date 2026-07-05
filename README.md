@@ -1,47 +1,33 @@
-# OrangeHRM Login Testing
+# OrangeHRM Login Module Testing
 
 ## Project Overview
 
-This repository demonstrates the complete Quality Assurance lifecycle for the Login module of the OrangeHRM Demo application.
+This repository demonstrates end to end manual testing of the OrangeHRM Login module using industry standard QA documentation.
 
-The objective of this project is to showcase industry standard QA documentation and testing practices, from requirement analysis to test closure.
+The project follows the Software Testing Life Cycle (STLC), beginning with requirement analysis and continuing through test planning, test scenario design, test case design, requirement traceability, test execution, defect reporting, and test summary reporting.
 
-## Application Details
+The objective of this project is to showcase practical software testing skills and provide a complete QA documentation portfolio for recruiters and hiring managers.
 
-Application Name: OrangeHRM Demo
+---
 
-Module: Login
+## Application Under Test
 
-Application Type: Web Application
+| Item | Details |
+|------|---------|
+| Application | OrangeHRM Demo |
+| Module | Login |
+| Testing Type | Manual Testing |
+| Methodology | STLC |
+| Tools Used | Microsoft Word, Microsoft Excel, Git, GitHub |
 
-Testing Type: Manual Testing followed by UI Automation
-
-## Project Objectives
-
-• Understand business requirements.
-
-• Prepare a professional Test Plan.
-
-• Design comprehensive Test Scenarios.
-
-• Create detailed Test Cases.
-
-• Execute manual testing.
-
-• Report defects.
-
-• Maintain Requirement Traceability Matrix (RTM).
-
-• Prepare Test Execution Report.
-
-• Prepare Test Summary Report.
-
-• Automate critical Login scenarios using Selenium Java.
+---
 
 ## Repository Structure
 
 ```
 orangehrm-login-testing
+│
+├── README.md
 │
 ├── docs
 │   ├── 01_Requirements
@@ -55,43 +41,150 @@ orangehrm-login-testing
 │
 ├── screenshots
 │
-├── automation
-│
-└── README.md
+└── automation
 ```
 
-## Documents Included
+---
 
-| Document | Status |
-|----------|--------|
-| Business Requirement Document | ✅ Completed |
-| Test Plan | ⏳ In Progress |
-| Test Scenarios | Pending |
-| Test Cases | Pending |
-| Requirement Traceability Matrix | Pending |
-| Bug Reports | Pending |
-| Test Execution Report | Pending |
-| Test Summary Report | Pending |
-| Selenium Automation | Pending |
+## Project Deliverables
 
-## Tools & Technologies
+| Document | Description | Status |
+|----------|-------------|--------|
+| Business Requirement Document (BRD) | Captures business and functional requirements for the Login module | ✅ Completed |
+| Test Plan | Defines the testing strategy, scope, objectives, schedule, and resources | ✅ Completed |
+| Test Scenarios | High level testing scenarios covering the Login module | ✅ Completed |
+| Test Cases | Detailed manual test cases with test data, steps, and expected results | ✅ Completed |
+| Requirement Traceability Matrix (RTM) | Maps requirements to scenarios and test cases | ⏳ In Progress |
+| Bug Report | Documents defects identified during execution | ⏳ Pending |
+| Test Execution Report | Records execution status of all test cases | ⏳ Pending |
+| Test Summary Report | Summarizes overall testing activities and release recommendation | ⏳ Pending |
 
-• Microsoft Word
+---
 
-• Microsoft Excel
+## Testing Scope
 
-• Git
+### In Scope
 
-• GitHub
+* Login
+* Logout
+* Forgot Password
+* Field Validation
+* Navigation
+* User Interface Verification
+* Browser Compatibility
+* Screen Resolution Compatibility
 
-• Selenium
+### Out of Scope
 
-• Java
+* Performance Testing
+* Security Testing
+* API Testing
+* Database Testing
+* Mobile Application Testing
 
-• TestNG
+---
 
-• Maven
+## Test Coverage
+
+| Artifact | Count |
+|----------|------:|
+| Functional Requirements | 8 |
+| Test Scenarios | 12 |
+| Test Cases | 56 |
+
+---
+
+## Test Design Techniques Used
+
+* Positive Testing
+* Negative Testing
+* Validation Testing
+* Error Guessing
+* UI Testing
+* Compatibility Testing
+
+---
+
+## Skills Demonstrated
+
+* Requirement Analysis
+* Business Requirement Documentation
+* Test Planning
+* Test Scenario Design
+* Test Case Design
+* Requirement Traceability
+* Functional Testing
+* UI Testing
+* Validation Testing
+* Compatibility Testing
+* Defect Reporting
+* Test Execution
+* Git & GitHub Documentation
+
+---
+
+## Project Workflow
+
+```
+Business Requirements
+        ↓
+Test Planning
+        ↓
+Test Scenarios
+        ↓
+Test Cases
+        ↓
+Requirement Traceability Matrix
+        ↓
+Test Execution
+        ↓
+Bug Reporting
+        ↓
+Test Summary Report
+```
+
+---
+
+## Current Progress
+
+### Completed
+
+* Business Requirement Document
+* Test Plan
+* Test Scenarios
+* Test Cases
+
+### Upcoming
+
+* Requirement Traceability Matrix
+* Test Execution
+* Bug Reports
+* Test Summary Report
+* Selenium Automation Framework
+
+---
+
+## Future Enhancements
+
+The repository will be extended with Selenium WebDriver automation using Java.
+
+Planned additions include:
+
+* Selenium WebDriver
+* Java
+* TestNG
+* Maven
+* Page Object Model (POM)
+* Data Driven Testing
+* Cross Browser Automation
+* Execution Reports
+
+---
 
 ## Author
 
-Anandaroop Maitra
+**Anandaroop Maitra**
+
+QA Engineer | Manual Testing | Selenium Automation | SQL | API Testing
+
+GitHub Portfolio demonstrating practical software testing deliverables following industry standard QA practices.
